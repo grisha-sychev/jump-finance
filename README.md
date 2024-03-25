@@ -1,2 +1,2 @@
 # jump-finance
-Jump.Finance PHP -
+Jump.Finance PHP - продукт, позволяющий вам организовать взаимодйствие с сервисом Jump.Finance из своей системы.
