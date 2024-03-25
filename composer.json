@@ -1,0 +1,19 @@
+{
+    "name": "jumpfinance/jumpfinance",
+    "description": "Jump.Finance OpenApi (2.0)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jumpfinance\\Jumpfinance\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gregory Sychev",
+            "email": "grisha_sychev@internet.ru"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
