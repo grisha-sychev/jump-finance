@@ -24,18 +24,18 @@ composer require jumpfinance/jumpfinance
 ### Интеграции
 - в разработке
 ### Исполнители
-- [Создать/изменить исполнителя]('https://github.com/grisha-sychev/jump-finance/blob/main/docs/Исполнители.md')
-- [Получить всех исполнителей]('https://github.com/grisha-sychev/jump-finance/blob/main/docs/Исполнители.md')
-- [Получить карточку исполнителя]('https://github.com/grisha-sychev/jump-finance/blob/main/docs/Исполнители.md')
-- [Удалить исполнителя]('https://github.com/grisha-sychev/jump-finance/blob/main/docs/Исполнители.md')
-- [Обновление исполнителя]('https://github.com/grisha-sychev/jump-finance/blob/main/docs/Исполнители.md')
-- [Получить реквизиты исполнителя]('https://github.com/grisha-sychev/jump-finance/blob/main/docs/Исполнители.md')
-- [Получить балансы исполнителя]('https://github.com/grisha-sychev/jump-finance/blob/main/docs/Исполнители.md')
-- [Получить баланс исполнителя]('https://github.com/grisha-sychev/jump-finance/blob/main/docs/Исполнители.md')
-- [Получить информацию о самозанятом]('https://github.com/grisha-sychev/jump-finance/blob/main/docs/Исполнители.md')
-- [Проверить статус самозанятого]('https://github.com/grisha-sychev/jump-finance/blob/main/docs/Исполнители.md')
-- [Принудительно идентифицировать исполнителя]('https://github.com/grisha-sychev/jump-finance/blob/main/docs/Исполнители.md')
-- [Получить информацию о последнем одобренном запросе на идентификацию]('https://github.com/grisha-sychev/jump-finance/blob/main/docs/Исполнители.md')
+- [Создать/изменить исполнителя](docs/Исполнители.md)
+- [Получить всех исполнителей](docs/Исполнители.md)
+- [Получить карточку исполнителя](docs/Исполнители.md)
+- [Удалить исполнителя](docs/Исполнители.md)
+- [Обновление исполнителя](docs/Исполнители.md)
+- [Получить реквизиты исполнителя](docs/Исполнители.md)
+- [Получить балансы исполнителя](docs/Исполнители.md)
+- [Получить баланс исполнителя](docs/Исполнители.md)
+- [Получить информацию о самозанятом](docs/Исполнители.md)
+- [Проверить статус самозанятого](docs/Исполнители.md)
+- [Принудительно идентифицировать исполнителя](docs/Исполнители.md)
+- [Получить информацию о последнем одобренном запросе на идентификацию](docs/Исполнители.md)
 ### Самозанятые
 - в разработке
 ### Словари
