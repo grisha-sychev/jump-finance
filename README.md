@@ -4,7 +4,7 @@
 
 # Jump Finance API Client
 
-Клиент для проведения платежей [Jump.Finance OpenApi (2.0)](https://api.jump.finance/openapi/services/contractors).
+Клиент для проведения платежей [Jump.Finance OpenApi (2.0)](https://api.jump.finance/openapi/services/contractors/).
 
 ## Установка
 
