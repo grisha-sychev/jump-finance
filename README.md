@@ -2,7 +2,7 @@
   <img src=https://cdn.jump.finance/openapi.png />
 </p>
 
-# Jump Finance API Client
+# Jump Finance API PHP Client
 
 - Релизация API на PHP [Jump.Finance OpenApi (2.0)](https://api.jump.finance/openapi/services/contractors/).
 - Вход в систему [Войти](https://my.jump.finance).
@@ -12,6 +12,33 @@
 ```sh
 composer require jumpfinance/jumpfinance
 ```
+## Начало работы
+
+```php
+use JumpFinance\Builder\Performer;
+use JumpFinance\Client;
+
+// ClientKey вашего личного кабинета, можно получить в разделе Интеграции
+$client = new Client('df7d75a3-d989-43e3-a697-89a2f4e350kq');
+
+// например работа с Исполнителями
+$performers = $client->performers();
+
+$performer = (new Performer)
+    ->setPhone("+79407853314")
+    ->setEmail('konstantin@internet.ru')
+    ->setLastName("Константинопольский")
+    ->setFirstName("Константин")
+    ->setMiddleName("Константинович")
+    ->setLegalFormId(2)
+    ->setINN("723404785380")
+    ->setAgentId(14680)
+    ->setGroupId(43724)
+    ->setCompanyAgreesPayTaxes(true);
+
+echo $performers->setPerformer($performer);
+```
+
 
 ## Реализованные API
 ### Банковские счета
