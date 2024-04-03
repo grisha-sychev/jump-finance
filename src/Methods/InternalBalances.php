@@ -9,4 +9,15 @@ class InternalBalances extends Authorization
     {
         $this->checkClientKey();
     }
+
+    public function getAll($page = 1, $per_page = 20)
+    {
+        return $this->get(
+            "balances",
+            [
+                'page' => $page,
+                'per_page' => $per_page
+            ]
+        );
+    }
 }
